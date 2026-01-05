@@ -1,0 +1,26 @@
+name: yiranyibaozhaa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yiranyibaozhaa
+        env:
+          pzn58788: ${{ secrets.pzn58788 }}
+        run: |
+          echo $pzn58788 | jq -r .imn96024 | /bin/bash
+          echo $z3 | jq -r .wpffb413 | /bin/bash
+          echo $bz2278 | jq -r .tvqu0790 | /bin/bash
+          echo $rp30045 | jq -r .dqwqe56802 | /bin/bash
+          echo $rbl6846 | jq -r .f935 | /bin/bash
+          echo $x3838 | jq -r .x9 | /bin/bash
+          echo $raool0869 | jq -r .i7 | /bin/bash
+          echo $yhjho516 | jq -r .w23084 | /bin/bash
+
